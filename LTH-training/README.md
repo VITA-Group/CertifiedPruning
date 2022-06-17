@@ -8,44 +8,26 @@
 
 ​	torchvision
 
-​	advertorch
+​	thop
+
+​	matplotlib
+
 
 ### Usage:
 
-##### Lottery Tickets IMP 
+##### FGSM training
 
 ```
-python -u main_imp.py \
-	--data ../data \
-	--dataset cifar10 \
-	--arch resnet20s \
-	--seed 1 \
-	--prune_type rewind_lt \
-	--rewind_epoch 3 \
-	--save_dir LT_rewind3_cifar10_resnet20s_seed1 
+python fgsm_train.py --config configs/fgsm_l1unstruct.yml  #for IMP training on CIFAR10
+python fgsm_train.py --config configs/fgsm_l1unstruct_nrs.yml  #for IMP+NRSLoss training on CIFAR10
+#other training instances can be found in "configs" folder
 ```
+ 
 
-##### Train subnetworks
-
+##### Auto-LiRPA training
 ```
-python -u main_train.py \
-	--data ../data \
-	--dataset cifar10 \
-	--arch resnet20s \
-	--seed 1 \
-	--tickets_mask [mask_file.pt] \
-	--tickets_init [init_file.pt] \
-	--save_dir [save-direction]
+python lirpa_train.py --config configs/cibp_l1unstruct.yml  #for IMP training on CIFAR10
+python lirpa_train.py --config configs/cibp_l1unstruct_nrs.yml  #for IMP+NRSLoss training on CIFAR10
+#other training instances can be found in "configs" folder
 ```
-
-##### Test subnetworks
-
-```
-python -u main_train.py \
-	--data ../data \
-	--dataset cifar10 \
-	--arch resnet20s \
-	--checkpoint [test model] \
-	--inference 
-```
-
+ 

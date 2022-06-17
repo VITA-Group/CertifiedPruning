@@ -31,5 +31,5 @@ python lirpa_train.py --config configs/cibp_l1unstruct_nrs.yml  #for IMP+NRSLoss
 #other training instances can be found in "configs" folder
 ```
 
-### Note:
+### Credit:
 The auto-LiRPA lib is a slight modification from the original version: https://github.com/huanzhang12/alpha-beta-CROWN/tree/main/auto_LiRPA to enable auto-LiRPA training with various iterative pruning methods.

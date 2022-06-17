@@ -1,0 +1,6 @@
+rate: 0.11
+prune_times: 12
+prune_method: nrs
+rs_weight: 0.01
+save_dir: fgsm_nrs
+rs_reg: 1

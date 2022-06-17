@@ -1,0 +1,6 @@
+rate: 0.90
+prune_times: 1
+prune_method: taylor1ScorerAbs
+save_dir: cibp_taylor1ScorerAbs_1shot
+one_shot: 1
+#scheduler_name:

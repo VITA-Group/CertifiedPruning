@@ -1,0 +1,12 @@
+hydra:
+    lr: 0.001
+    optimizer: adam
+    epochs: 20
+    momentum: 0.9
+    decreasing_lr: 10,15
+
+rate: 0.2
+prune_times: 16
+prune_method: hydra
+save_dir: cibp_hydra
+weight_decay: 0.00001

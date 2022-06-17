@@ -1,0 +1,7 @@
+rate: 0.11
+prune_times: 12
+prune_method: nrs
+rs_weight: 0.001
+save_dir: cibp_nrs
+rs_reg: 1
+weight_decay: 0

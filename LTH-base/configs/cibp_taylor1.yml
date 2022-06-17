@@ -1,0 +1,5 @@
+rate: 0.20
+prune_times: 16
+prune_method: taylor1ScorerAbs
+save_dir: cibp_taylor1
+weight_decay: 0.00001

@@ -1,0 +1,8 @@
+rate: 0.20
+prune_times: 16
+prune_method: l1unstruct
+save_dir: cibp_l1unstruct_nrs
+lr: 0.001
+rs_weight: 0.001
+rs_reg: 1
+weight_decay: 0

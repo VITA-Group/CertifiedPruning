@@ -1,0 +1,25 @@
+general:
+  mode: crown-acc
+model:
+  name: cifar_model_deep
+  #path: models/checkpoint/cibp_deep_p0.5.pth.tar
+  path: models/checkpoint/cibp_deep_p0.0375.pth.tar
+  #path: models/checkpoint/deep_newLoss_p0.7.pth.tar
+  #path: models/checkpoint/deep_slim_p0.7.pth.tar
+  #path: models/checkpoint/15model_SA_best.pth.tar
+  #path: models/checkpoint/10model_SA_best.pth.tar
+  #path: models/checkpoint/3model_SA_best.pth.tar
+  #path: models/checkpoint/0model_SA_best.pth.tar
+  #path: models/checkpoint/fgsm_hydra_p0.35.pth.tar
+data:
+  dataset: SVHN
+specification:
+  epsilon: 0.00784313725  # 2./255.
+attack:
+  pgd_restarts: 100
+solver:
+  beta-crown:
+    batch_size: 5
+    iteration: 20
+bab:
+  timeout: 180

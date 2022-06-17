@@ -1,0 +1,10 @@
+rate: 0.11
+prune_times: 12
+prune_method: nrs
+save_dir: cibp_nrs_8.255
+rs_reg: 1
+rs_weight: 0.001
+eps: 8/255 
+epochs: 300
+lr_decay_milestones: [210,255]
+scheduler_opts: start=16,length=121,mid=0.4

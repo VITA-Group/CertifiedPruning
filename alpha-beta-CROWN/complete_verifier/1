@@ -1,0 +1,14 @@
+nohup: ignoring input and appending output to 'nohup.out'
+nohup: ignoring input and appending output to 'nohup.out'
+./run.sh: line 22: complete_verification: command not found
+./run.sh: line 22: complete_verification: command not found
+./run.sh: line 23: complete_verification: command not found
+./run.sh: line 23: complete_verification: command not found
+./run.sh: line 24: complete_verification: command not found
+./run.sh: line 24: complete_verification: command not found
+./run.sh: line 25: complete_verification: command not found
+./run.sh: line 25: complete_verification: command not found
+./run.sh: line 26: complete_verification: command not found
+./run.sh: line 26: complete_verification: command not found
+./run.sh: line 27: complete_verification: command not found
+./run.sh: line 27: complete_verification: command not found

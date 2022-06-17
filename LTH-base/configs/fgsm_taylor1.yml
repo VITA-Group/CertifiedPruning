@@ -1,0 +1,4 @@
+rate: 0.20
+prune_times: 16
+prune_method: taylor1ScorerAbs
+save_dir: fgsm_taylor1ScorerAbs

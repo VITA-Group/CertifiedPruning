@@ -1,0 +1,9 @@
+rate: 0.20
+prune_times: 16
+prune_method: random
+save_dir: cibp_random_8.255
+lr: 0.001
+eps: 8/255 
+epochs: 300
+lr_decay_milestones: [210,255]
+scheduler_opts: start=16,length=121,mid=0.4

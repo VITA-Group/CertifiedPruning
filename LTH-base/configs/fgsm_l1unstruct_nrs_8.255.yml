@@ -1,0 +1,10 @@
+rate: 0.20
+prune_times: 16
+prune_method: l1unstruct
+save_dir: fgsm_l1unstruct_nrs_8.255
+rs_weight: 0.01
+rs_reg: 1
+eps: 8/255 
+epochs: 300
+lr_decay_milestones: [210,255]
+scheduler_opts: start=16,length=121,mid=0.4

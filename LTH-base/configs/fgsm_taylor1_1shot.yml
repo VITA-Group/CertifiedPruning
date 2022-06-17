@@ -1,0 +1,7 @@
+rate: 0.9
+prune_times: 1
+prune_method: taylor1ScorerAbs
+save_dir: fgsm_taylor1ScorerAbs_1shot
+one_shot: 1
+weight_decay: 0
+scheduler_name: FixedScheduler

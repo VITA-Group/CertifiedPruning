@@ -1,0 +1,5 @@
+rate: 0.20
+prune_times: 16
+prune_method: random
+save_dir: cibp_random
+lr: 0.001

@@ -1,0 +1,4 @@
+rate: 0.20
+prune_times: 16
+prune_method: l1unstruct
+save_dir: fgsm_l1unstruct

@@ -1,0 +1,5 @@
+rate: 0.11
+prune_times: 12
+prune_method: slim
+save_dir: fgsm_slim
+slim_weight: 0.0001

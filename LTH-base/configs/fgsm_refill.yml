@@ -1,0 +1,5 @@
+imp_rate: 0.20
+rate: 0.11
+prune_times: 12
+prune_method: refill
+save_dir: fgsm_refill

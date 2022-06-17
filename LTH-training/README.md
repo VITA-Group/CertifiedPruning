@@ -1,4 +1,4 @@
-# LTH-base
+# Training code to find certified lottery tickets
 
 
 

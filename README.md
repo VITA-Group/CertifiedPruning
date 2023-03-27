@@ -1,5 +1,5 @@
 # CertifiedPruning
-Code for paper [(Preprint) Can pruning improve certified robustness of deep neural networks?](https://arxiv.org/abs/2206.07311)
+Code for paper [(TMLR) Can pruning improve certified robustness of deep neural networks?](https://arxiv.org/abs/2206.07311)
 
 ## Overview
 
